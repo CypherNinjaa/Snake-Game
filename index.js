@@ -5,6 +5,7 @@ const gameOverSound = new Audio("gameover.mp3");
 const moveSound = new Audio("move.mp3");
 const musicSound = new Audio("music.mp3");
 
+
 // Configure audio settings
 foodSound.volume = 0.5;
 gameOverSound.volume = 0.7;

@@ -1,5 +1,25 @@
 // Game Constants & Variables
+<<<<<<<<< Temporary merge branch 1
+let inputDir = {x: 0, y: 0}; 
+const foodSound = new Audio('./food.mp3');
+const gameOverSound = new Audio('./gameover.mp3');
+const moveSound = new Audio('./move.mp3');
+const musicSound = new Audio('./music.mp3');
+=========
+let inputDir = { x: 0, y: 0 };
+const foodSound = new Audio("food.mp3");
+const gameOverSound = new Audio("gameover.mp3");
+const moveSound = new Audio("move.mp3");
+const musicSound = new Audio("music.mp3");
 
+// Configure audio settings
+foodSound.volume = 0.5;
+gameOverSound.volume = 0.7;
+moveSound.volume = 0.3;
+musicSound.volume = 0.4;
+musicSound.loop = true;
+
+>>>>>>>>> Temporary merge branch 2
 let speed = 5;
 let score = 0;
 let lastPaintTime = 0;
